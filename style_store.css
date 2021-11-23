@@ -9,9 +9,10 @@ body {
   background-size: cover;
 }
 
-.box_home {
-  width: 600px;
-  background: rgba(0, 0, 0, .4);
+.menu {
+  width: 900px;
+  height: 60px;
+  background: rgba(0, 0, 0, .9);
   padding: 20px;
   text-align: center;
   margin: 0 auto;
@@ -22,8 +23,8 @@ body {
 }
 
 .box {
-  width: 500px;
-  background: rgba(0, 0, 0, .4);
+  width: 900px;
+  background: rgba(0, 0, 0, .9);
   padding: 20px;
   text-align: center;
   margin: 0 auto;
@@ -76,19 +77,6 @@ body {
   transform: scale(1.3);
 }
 
-.menu {
-  width: 900px;
-  height: 60px;
-  background: rgba(0, 0, 0, .4);
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 4%;
-  color: white;
-  font-family: 'Century Gothic', sans-serif;
-  border-radius: 15px;
-}
-
 nav {
   float: right;
 }
@@ -120,4 +108,46 @@ nav ul li a::before {
 
 nav ul li a:hover::before {
   width: 100%;
+}
+
+
+.box h1 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+}
+
+.box h2 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: left;
+  color: green;
+}
+
+.box p {
+  text-align: justify;
+}
+
+.box ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.box ul li {
+  display: inline-block;
+}
+.box ul li a {
+  color: white;
+  font-size: 40px;
+  padding: 10px 5px;
+  transition: all .5s ease-in-out;
+  display: block;
+}
+
+.box ul li a:hover {
+  color:#b9b9b9;
+  transform: scale(1.3);
 }
