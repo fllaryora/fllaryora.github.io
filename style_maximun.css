@@ -20,7 +20,7 @@ body {
   padding-top: 2%;
   padding-bottom: 5%;
   height: calc(5rem + 1.3vw);
-  background: rgba(0, 0, 0, .9);
+  background: rgba(0, 0, 0, .4);
   text-align: center;
   color: white;
   font-family: 'Century Gothic', sans-serif;
@@ -90,7 +90,7 @@ body {
 }
 
 nav {
-  float: right;
+
 }
 
 nav ul li {
@@ -102,23 +102,8 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: calc( 0.65rem + 1vw);
 }
-
-nav ul li a::before {
-  display: block;
-  content: '';
-  width: 0%;
-  background: white;
-  height: 5px;
-  top:0;
-  position: absolute;
-  transition: width 0.2s;
-}
-
-nav ul li a:hover::before {
-  width: 100%;
-}
-
 
 .box h1 {
   font-size: 30px;
