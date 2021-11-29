@@ -5,69 +5,75 @@
 }
 
 body {
-  background: url('assets/capitolium.JPG') no-repeat;
+  background: url('assets/capitolium.JPG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
 .menu {
-  width: 900px;
-  height: 60px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  height: calc(5rem + 1.3vw);
   background: rgba(0, 0, 0, .9);
-  padding: 20px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 4%;
   color: white;
   font-family: 'Century Gothic', sans-serif;
-  border-radius: 15px;
 }
 
 .box {
-  width: 900px;
+  width: 90%;
   background: rgba(0, 0, 0, .9);
-  padding: 30px;
+  padding: 5%;
   text-align: center;
   margin: 0 auto;
   margin-top: 4%;
   color: white;
   font-family: 'Century Gothic', sans-serif;
-  border-radius: 15px;
 }
 
 .box-img {
   border-radius: 50%;
 }
 
+.panel-img {
+  border-radius: 2%;
+  width: 90%;
+}
+
 .box h1 {
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
-  margin: 30px 0 20px;
+  font-size: calc(1rem + 3vw);
+  line-height: calc(1.4rem + 4.8vw);
 }
 
 .box h2 {
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
-  margin-bottom: 30px
+  font-size: calc(1rem + 2vw);
+  line-height: calc(1.4rem + 2.4vw);
 }
 
 .box p {
   text-align: justify;
+  font-size: calc( 0.8rem + 0.5vw);
 }
 
 .box ul {
-  margin-top: 20px;
+  margin-top: 3%;
   list-style: none;
 }
 
 .box ul li {
   display: inline-block;
 }
+
 .box ul li a {
   color: white;
-  font-size: 45px;
-  padding: 10px 5px;
+  font-size: calc(1.4rem + 1.3vw);
+  padding: 5% 3%;
   transition: all .5s ease-in-out;
   display: block;
 }
@@ -83,10 +89,7 @@ nav {
 
 nav ul li {
   list-style: none;
-  margin-left: 75px;
-  padding: 12px 0;
-  float: left;
-  position: relative;
+  margin-left: 3%;
 }
 
 nav ul li a {
@@ -177,12 +180,18 @@ nav ul li a:hover::before {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
-  background: #2c3e50;
-  margin-bottom: : 20px;
+  padding: 0 2%;
+  background: #4c5e70;
+  margin-bottom: : 5%;
+  padding: 5%;
   display: none;
   overflow: hidden;
   border-radius: 0 0 15px 15px;
+}
+
+.panel p {
+  text-align: justify;
+  font-size: calc( 0.5rem + 0.5vw);
 }
 
 .accordion:after {
